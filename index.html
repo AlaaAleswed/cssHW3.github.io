@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(media/volcano-1905556_1280.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form{
+            
+            justify-content: center;
+            align-items: center;
+            width: 350px ;
+            text-align: center;
+            padding: 15px 
+        }
+        .box{
+            background-color: rgba(211, 211, 211, 0.418);
+            padding: 20px 15px;
+            border-radius: 10px;
+            
+        }
+        input[type='text'],[type='password']{
+            background-color: rgba(211, 211, 211, 0.555);
+            width: 95%;
+            padding: 15px;
+            border: none;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        input[type='submit']{
+            padding: 10px 15px;
+            width: 95%;
+            background-color: rgb(20, 170, 77);
+            color: white;
+            border: none;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+        label{
+            position: absolute;
+            display: flex;
+            justify-content: left;
+        }
+        div a {
+            text-decoration: none;
+             display: flex;
+            justify-content: right;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="box">
+        <h2>Account Login </h2>
+        <div><input type="text" placeholder="User Name"></div>
+        <div><input type="password" placeholder="Password"></div>
+        <div><input type="submit" value="LOGIN"></div>
+        <div><label><input type="checkbox" name="rm">remember me</label></div>
+        <div><a href="#">Forget Password?</a></div>   
+        </div>
+    </form>
+</body>
+</html>
